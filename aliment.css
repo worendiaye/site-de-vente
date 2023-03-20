@@ -1,0 +1,106 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	background: rgba(90, 70, 90, 2.0);
+	text-align: center;
+}
+h1{
+	text-align: center;
+	font-family: "AGENCY FB";
+	color: black;
+
+}
+
+td
+{ 	
+	largeur de bordure : 1 px ;
+	bordure : solide 5px ;
+	couleur de bordure : black ;
+	rayon de bordure : 10 % ;
+	rembourrage haut : 1 % ;
+	
+}
+une image
+{
+	rayon de bordure : 50 % ;
+	align-items : center ;
+	boîte-ombre : 0 0 8px ;
+
+}
+p
+{
+	aligner le texte : centrer ;
+	color: white;
+	font-family: "fantasy;"
+}
+
+-
+#entete
+{
+	color: black;
+	background: rgba(90, 70, 90, 2.0);
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 17%;
+	text-align: center;
+	font-size: 4em;
+	text-transform: uppercase;
+	font-family: "Agency FB";
+	padding-top: 30px;
+	border: solid 2px black;
+	border-top: none;
+}
+
+#menu
+{
+	color: white;
+	background: rgba(90, 70, 90, 2.0);
+	width: 100%;
+	height: 6%;
+	position: absolute;
+	left: 0%;
+	top: 17%;
+	text-align: center;
+	border-top: black 3px;
+
+}
+
+#menu ul, #menu li
+{
+	display: inline;
+}
+
+#menu a 
+{
+	text-decoration: none;
+	display: inline-block;
+	height: 100%;
+	padding: 8px;
+	border: solid black 2px;
+	border-left: solid black 1px;
+	color: black;
+	border-right: none;
+	border-top: none;
+	border-bottom: none;
+
+}
+#menu li:last-child a
+{
+	border-right: solid 2px black;
+}
+#corps
+{
+
+	largeur : 100 % ;
+	taille : 71 % ;
+	position : absolue ;
+	gauche : 0 % ;
+	haut : 23 % ;
+	bordure : blanc uni  1px ;
+	rembourrage : 5 % ;
+}
